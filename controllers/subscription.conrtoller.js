@@ -16,3 +16,24 @@ export const createSubscription = async (req, res, next) => {
         next(error);
     }
 }
+
+export const getUserSubscripsion = async (req, res, next) => {
+    try {
+
+        if(req.user.id !== req.params.id) {
+            const error = new Error('You are not the owner of this account');
+            error.status = 401;
+            throw error;
+        }
+
+        const subscripsion = await Subscription.find({ user: req.params.id });
+
+        res.status(200).json({
+            success: true,
+            data: subscripsion,
+        })
+        
+    } catch (error) {
+        next(error)
+    }
+}
