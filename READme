@@ -8,6 +8,9 @@ npm install mongodb mongoose
 npm install jsonwebtoken
 npm install bcryptjs
 npm i @arcjet/node for bot protection
+npm install @upstash/workflow
+npm install dayjs
+npx @upstash/qstash-cli dev
 
 put changes in package.json:
  type: module,
