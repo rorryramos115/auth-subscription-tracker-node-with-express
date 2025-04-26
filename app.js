@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 app.listen(PORT, async () => {
     console.log(`Crud API is running on http://localhost:${PORT}`);
 
-   await connectToDatabase();
+   await connectToDatabase(); 
 });
 
 export default app;

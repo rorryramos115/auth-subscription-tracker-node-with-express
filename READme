@@ -11,6 +11,7 @@ npm i @arcjet/node for bot protection
 npm install @upstash/workflow
 npm install dayjs
 npx @upstash/qstash-cli dev
+npm install nodemailer
 
 put changes in package.json:
  type: module,
@@ -19,4 +20,4 @@ put changes in package.json:
     dev: nodemon app.js
   },
 
-rorryramos114
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODBiMzI2OWEwYmJlNWNlNjVmNDA2NGQiLCJpYXQiOjE3NDU1ODM1MjEsImV4cCI6MTc0NTY2OTkyMX0.2QZTxEoH_iNC5y0z6qttXl-D9YzBqJvTC9E-FaBJVV4
