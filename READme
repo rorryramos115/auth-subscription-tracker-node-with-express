@@ -19,5 +19,3 @@ put changes in package.json:
     start: node app.js,
     dev: nodemon app.js
   },
-
-# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODBiMzI2OWEwYmJlNWNlNjVmNDA2NGQiLCJpYXQiOjE3NDU1ODM1MjEsImV4cCI6MTc0NTY2OTkyMX0.2QZTxEoH_iNC5y0z6qttXl-D9YzBqJvTC9E-FaBJVV4
